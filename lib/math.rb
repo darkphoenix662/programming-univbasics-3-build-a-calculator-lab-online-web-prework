@@ -1,23 +1,28 @@
-def addition(num1, num2)
-
+def addition(num2, num1)
+  puts (num2 + num1).to_equal
 end
 
-def subtraction(num1, num2)
-
+def subtraction(num2, num1)
+  puts (num2 - num1).to_equal
 end
 
-def division(num1, num2)
-
+def division(num2, num1)
+  puts (num2 / num1).to_equal
 end
 
-def multiplication(num1, num2)
-
+def multiplication(num2, num1)
+  puts (num2 * num1).to_equal
 end
 
-def modulo(num1, num2)
-
+def modulo(num2, num1)
+  puts (num2 % num1).to_equal
 end
 
-def square_root(num)
-
+def square_root(num2, num1)
+  puts (num2 ** num1).to_equal
 end
+
+num2 = 5.0
+num1 = 4.0
+
+puts addition
